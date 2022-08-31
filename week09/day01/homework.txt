@@ -1,0 +1,28 @@
+Q - 1 )Below are nested “K” for loops 
+n= Number(prompt(“Enter the limit”))
+for(let i=0;i<n;i++)
+for(let j=0;j<n;i++)
+for(let m=0;m<n;i++)
+…
+…
+…
+K loops in total
+…
+for(let z=0;z<n;i++)
+console.log(“Hello World”)
+
+Answer 1. 
+Here the time complexity is "n raised to the power k" also we can say O(n^k).
+
+Q-2)
+N= Number(prompt(“Enter the limit”))
+M= Number(prompt(“Enter the limit”))
+a = b = 0
+for(let i=0;i<N;i++){
+a = a + 1
+}
+for(let j=0;j<M;j++)
+b = b + 1
+
+Answer 2.
+Here the time complexity is O(M+N).
